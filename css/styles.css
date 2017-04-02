@@ -1,0 +1,36 @@
+body {
+	font-family: "Indie Flower", cursive ;
+  background-color: #e0e0e0;
+  padding-top: 50px;
+}
+
+footer {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: black;
+  font-weight: thin;
+
+}
+
+.navbar {
+  background-color: black;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  max-width: 20rem;
+}
+
+.font-indie-flower {
+  font-family: "Indie Flower", cursive;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-div, #contact-div {
+  background-color: white;
+}
