@@ -9,7 +9,6 @@ My portfolio webpage
 ## CSS Frameworks
 
 - [Bootstrap](https://.getbootstrap.com/)
-- [Materialize](http://materializecss.com/)
 - [Font Awesome](http://fontawesome.io/)
 - [Google Fonts](https://fonts.google.com/)
 
