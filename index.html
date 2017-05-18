@@ -4,9 +4,9 @@
   <title>My Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- bootstrap -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css"> <!-- materialize -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- bootstrap -->
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet"> <!-- google font -->
   <link rel="stylesheet" href="css/styles.css"> <!-- my style -->
 </head>
@@ -15,26 +15,27 @@
 
 <!-- HEADER: NAVBAR -->
 <header>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        		<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-    	    	<span class="sr-only">toggle dropdown menu</span>
-      		</button>
-      	<a class="navbar-brand" target="_self" id="home" href="#about">guilhermedeoliveira</a>
-    	</div>
-    		<div class=" navbar-collapse navbar-right" id="myNavbar">
-    			<ul class="nav navbar-nav navbar-right">
-        			<li><a href="#about" target="_self"><span class="glyphicon glyphicon-user"></span> about</a></li>
-        			<li><a href="#portfolio" target="_self"><span class="glyphicon glyphicon-file"></span> portfolio</a></li>
-    				<li><a href="#contact" target="_self"><span class="glyphicon glyphicon-bullhorn"></span> contact</a></li>
-      			</ul>
-    		</div>
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top"> -->
+  <nav class="navbar navbar-inverse">
+  	<div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+  	   	</button>
+        <a target="_self" class="navbar-brand" href="#about">guilhermedeoliveira</a>
+      </div>
+  		<div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+  				<li><a href="#about" target="_self">about</a></li>
+      		<li><a href="#portfolio" target="_self">portfolio</a></li>
+  				<li><a href="#contact" target="_self">contact</a></li>
+    		</ul>
+  		</div>
     </div>
-</nav>
+  </nav>
 </header>
 <!-- end -->
 
@@ -203,5 +204,6 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
